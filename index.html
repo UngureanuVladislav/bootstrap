@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="style.css" rel="stylsheet">
+</head>
+<body>
+    
+    <header><nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-xxl">
+          <a class="navbar-brand" href="#">Pet's Home</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+            
+              <li class="nav-item">
+                <a class="nav-link" href="information.html">Information</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="login.html">Login</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  About
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" href="">Login</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search animal" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <section>
+        <div class="container-xxl">
+            <div class="row align-items-center">
+                <div class="col-6">
+                <h1>Welcome to Peat's Home</h1>
+            </div>
+                <div class="col-3">
+                    <img class="w-100" src="https://post.healthline.com/wp-content/uploads/2020/08/3180-Pug_green_grass-732x549-thumbnail-732x549.jpg" alt="Dog">
+                </div>
+                
+              </div>
+            </div>
+        </div>
+        
+    </section>
+    <section>
+        <div class="container-xxl">
+            <h2>Our animal</h2>
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <div class="row">
+                        <div class="col">
+                            <div class="card" style="width: 18rem;">
+                                <img src="https://www.rd.com/wp-content/uploads/2019/11/shutterstock_572338033-e1573490008107-scaled.jpg" class="card-img-top" alt="cat">
+                                <div class="card-body">
+                                  <h5 class="card-title">Lucky</h5>
+                                  <p class="card-text">This is a very smart cat, is in full power.He is looking for a friendly family that will love him and play with him</p>
+                                  <a href="#" class="btn btn-primary">Adopt</a>
+                                </div>
+                              </div>
+                        </div>
+                        <div class="col">
+                            <div class="col">
+                                <div class="card" style="width: 18rem;">
+                                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPnK9hKgGY9tZL4OIEgQvs91YgodR_LxvbXQ&usqp=CAU" class="card-img-top" alt="cat">
+                                    <div class="card-body">
+                                      <h5 class="card-title">John</h5>
+                                      <p class="card-text">John was caught by some poachers and thrown into the well, now he is happy, he loves to play, he is not aggressive</p>
+                                      <a href="#" class="btn btn-primary">Adopt</a>
+                                    </div>
+                                  </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="col">
+                                <div class="card" style="width: 18rem;">
+                                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEkblS5HLuaMGuUhbDeLSl6Omxd6MIX4I4kw&usqp=CAU" class="card-img-top" alt="cat">
+                                    <div class="card-body">
+                                      <h5 class="card-title">Boris</h5>
+                                      <p class="card-text">This is Boris it is a very quiet turtle, it loves to sleep and does not disturb</p>
+                                      <a href="#" class="btn btn-primary">Adopt</a>
+                                    </div>
+                                  </div>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    
+                  </div>
+                  <div class="carousel-item">
+                  </div>
+                </div>
+              </div>
+        </div>
+    </section>
+
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+
+<style>
+.team-card {
+ position: relative;
+ margin-top: 124px;
+}
+
+.team-card .img {
+ left: 50%;
+ top: -100px;
+ padding: 10px;
+ position: absolute;
+ border-radius: 50%;
+ -webkit-transition: all 0.5s ease;
+ transition: all 0.5s ease;
+ -webkit-transform: translateX(-50%);
+ transform: translateX(-50%);
+ border: 10px solid #171718;
+}
+
+.team-card .img img {
+ width: 200px;
+ max-width: 200px;
+ border-radius: 50%;
+ position: relative;
+}
+
+.team-card .body {
+ text-align: center;
+ border-radius: 80px;
+ -webkit-transition: all 0.5s ease;
+ transition: all 0.5s ease;
+ background: #171718;
+ padding: 150px 30px 30px 30px;
+}
+
+.team-card .body .text {
+ margin-bottom: 30px;
+}
+
+.team-card .body .text h5 {
+ color: #fff;
+ margin-bottom: 10px;
+}
+
+.team-card .body .text p {
+ font-weight: 500;
+ color: #fff;
+ text-transform: uppercase;
+}
+
+.team-card .body .social ul li {
+ display: inline-block;
+ margin-right: 10px;
+}
+
+.team-card .body .social ul li a {
+ padding: 10px;
+ border-radius: 50%;
+ display: inline-block;
+ border: 2px solid #fff;
+ -webkit-transition: all 0.5s ease;
+ transition: all 0.5s ease;
+}
+
+.team-card .body .social ul li a i {
+ width: 40px;
+ height: 40px;
+ line-height: 40px;
+ border-radius: 50%;
+ color: #ff4500;
+ background: #fff;
+ -webkit-transition: all 0.5s ease;
+ transition: all 0.5s ease;
+}
+
+.team-card .body .social ul li a:hover {
+ border-color: #171718;
+}
+
+.team-card .body .social ul li a:hover i {
+ color: #fff;
+ background: #171718;
+}
+
+.team-card:hover .body {
+ background: #ff4500;
+}
+
+.team-card:hover .img {
+ border-color: #ff4500;
+}
+</style>
+
+ <div class="container">
+ <div class="row">
+ <div class="col-md-6 col-lg-4">
+ <div class="team-card">
+ <div class="img">
+ <img src="https://murchim.ru/_sf/0/55038608.png" alt="Cat image">
+ </div>
+ <div class="body">
+ <div class="text">
+ <h5>Agent One</h5> <p>Choose</p> </div>
+ <div class="social">
+ <ul>
+ <li><a href="https://vk.com/murchim_ru" target="_blank"><i class="fab fa-vk"></i></a></li> <li><a href="https://ok.ru/murchim.rf"><i class="fab fa-odnoklassniki"></i></a></li> <li><a href="https://t.me/murchim_rf"><i class="fab fa-telegram"></i></a></li> </ul>
+ </div>
+ </div>
+ </div>
+ </div>
+ <div class="col-md-6 col-lg-4">
+ <div class="team-card">
+ <div class="img">
+ <img src="https://murchim.ru/_sf/0/55573677.png" alt="Cat image">
+ </div>
+ <div class="body">
+ <div class="text">
+ <h5>Agent Two</h5> <p>Anithing alse</p> </div>
+ <div class="social">
+ <ul>
+ <li><a href="https://vk.com/murchim_ru" target="_blank"><i class="fab fa-vk"></i></a></li> <li><a href="https://ok.ru/murchim.rf"><i class="fab fa-odnoklassniki"></i></a></li> <li><a href="https://t.me/murchim_rf"><i class="fab fa-telegram"></i></a></li> </ul>
+ </div>
+ </div>
+ </div>
+ </div>
+ <div class="col-md-6 col-lg-4">
+ <div class="team-card">
+ <div class="img">
+ <img src="https://murchim.ru/_sf/0/51904071.png" alt="Cat image">
+ </div>
+ <div class="body">
+ <div class="text">
+ <h5>Agent Tree</h5> <p>Maibe one more</p> </div>
+ <div class="social">
+ <ul>
+ <li><a href="https://vk.com/murchim_ru" target="_blank"><i class="fab fa-vk"></i></a></li> <li><a href="https://ok.ru/murchim.rf"><i class="fab fa-odnoklassniki"></i></a></li> <li><a href="https://t.me/murchim_rf"><i class="fab fa-telegram"></i></a></li> </ul>
+ </div>
+ </div>
+ </div>
+ </div>
+ </div>
+ </div>
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js"></script>
+
+<style>
+.card {
+ margin: 0 auto;
+}
+.card .carousel-item {
+ height: 200px;
+}
+.card .carousel-caption {
+ padding: 0;
+ right: 0;
+ left: 0;
+ color: #3d3d3d;
+}
+.card .carousel-caption h3 {
+ color: #3d3d3d;
+}
+.card .carousel-caption p {
+ line-height: 30px;
+}
+.card .carousel-caption .col-sm-3 {
+ display: flex;
+ align-items: center;
+}
+.card .carousel-caption .col-sm-9 {
+ text-align: left;
+}
+.navi a {
+ text-decoration:none;
+}
+a > .ico {
+ background-color: grey;
+ padding: 10px; 
+}
+a:hover > .ico {
+ background-color: #666;
+}
+</style>
+
+<div class="card col-md-6 mt-5 mb-5">
+ <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" data-interval="5000">
+ <div class="w-100 carousel-inner" role="listbox">
+ <div class="carousel-item active">
+ <div class="carousel-caption">
+ <div class="row">
+ <div class="col-sm-3">
+ <img src="https://bootstraptema.ru/snippets/icons/2016/mia/1.png" alt="" class="rounded-circle img-fluid"/>
+ </div>
+ <div class="col-sm-9">
+ <h3>Gives me hope</h3>
+ <small>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</small>
+ <small class="smallest mute">- Yayo Dudemous</small>
+ </div>
+ </div>
+ </div>
+ </div>
+ <div class="carousel-item">
+ <div class="carousel-caption">
+ <div class="row">
+ <div class="col-sm-3">
+ <img src="https://bootstraptema.ru/snippets/icons/2016/mia/3.png" alt="" class="rounded-circle img-fluid">
+ </div>
+ <div class="col-sm-9">
+ <h3>You will love it.</h3>
+ <small>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</small>
+ <small class="smallest mute">- Yayo Dudemous</small>
+ </div>
+ </div>
+ </div>
+ </div>
+ <div class="carousel-item">
+ <div class="carousel-caption">
+ <div class="row">
+ <div class="col-sm-3">
+ <img src="https://bootstraptema.ru/snippets/icons/2016/mia/5.png" alt="" class="rounded-circle img-fluid">
+ </div>
+ <div class="col-sm-9">
+ <h3>Velvet pouch!</h3>
+ <small>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</small>
+ <small class="smallest mute">- Yayo Dudemous</small>
+ </div>
+ </div>
+ </div>
+ </div>
+ </div>
+ <div class="float-right navi">
+ <a class="" href="#carouselExampleControls" role="button" data-slide="prev">
+ <span class="carousel-control-prev-icon ico" aria-hidden="true"></span>
+ <span class="sr-only">Previous</span>
+ </a>
+ <a class="" href="#carouselExampleControls" role="button" data-slide="next">
+ <span class="carousel-control-next-icon ico" aria-hidden="true"></span>
+ <span class="sr-only">Next</span>
+ </a>
+ </div>
+ </div>
+</div>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+
+
+
+    
+    
+
+ 
+
+
+
+
+   
+   
+    
+</body>
+</html>
